@@ -12,6 +12,7 @@ dotenv.config();
 const app = express();
 const allowedOrigins = [
 process.env.CLIENT_URL,
+"https://coffee-and-toffee-three.vercel.app/",
 "http://localhost:5173"
 ].filter(Boolean);
 
