@@ -10,13 +10,17 @@ import userRoutes from "./routes/userRoutes.js";
 dotenv.config();
 
 const app = express();
+const allowedOrigins = [
+process.env.CLIENT_URL,
+"http://localhost:5173"
+].filter(Boolean);
 
 app.use(express.json());
 app.use(cookieParser());
 
 app.use(
   cors({
-    origin: "http://localhost:5173",
+    origin: allowedOrigins,
     credentials: true,
   })
 );
