@@ -142,11 +142,6 @@ Contributions are welcome! Please fork the repo and open pull requests. For majo
 
 ---
 
-## License
-
-[ISC License](LICENSE) © 2024 Aditya Gadbail
-
----
 
 ## Contact & Support
 
