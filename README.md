@@ -4,6 +4,12 @@ A web application for coffee enthusiasts, built with a modern JavaScript stack. 
 
 ---
 
+---
+
+## Live Demo
+
+Check out the live site: [Coffee & Toffee](https://coffee-and-toffee-three.vercel.app/)
+
 ## Table of Contents
 - [Features](#features)
 - [Project Structure](#project-structure)
